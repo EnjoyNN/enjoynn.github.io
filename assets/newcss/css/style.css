@@ -5,6 +5,7 @@
   src: local("☺"), url("../fonts/font_logo.ttf") format("truetype"), url("../fonts/font_logo.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap
 }
 
 .logo {
