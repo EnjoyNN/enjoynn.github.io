@@ -38,15 +38,19 @@ body, html{
 	font-family: "Philosofer", sans-serif;
 }
 
-#header6-1{
+.no-webp #header6-1{
 	background: url('../img/main.jpg') 100% 100% / cover no-repeat;
+
+}
+.webp #header6-1{
+	background: url('../img/webp/main.webp') 100% 100% / cover no-repeat;
 
 }
 .black__background{
 	position: absolute;
 	top: 0;
 	left: 0;
-	 background-color:rgba(0,0,0,.5);
+	 background-color:rgba(0,0,0,.38);
 	 width: 100%;
 	 height: 100%;
 }
@@ -54,24 +58,45 @@ body, html{
 	position: absolute;
 	top: 0;
 	left: 0;
-	 background-color:rgba(0,0,0,.20);
+	 background-color:rgba(0,0,0,.15);
 	 width: 100%;
 	 height: 100%;
 }
-#features3-d{
-	background: url('../img/back2.jpg') 100% 100% / cover no-repeat;
+.no-webp #features3-d{
+	/*background: url('../img/back2.jpg') 100% 100% / cover no-repeat;*/
+	background: url('../img/back3.jpg') 100% 100% / cover no-repeat;
 }
-#features3-e{
-	background: url('../img/back2.jpg') 100% 100% / cover no-repeat;
+.no-webp #features3-e{
+	/*background: url('../img/back2.jpg') 100% 100% / cover no-repeat;*/
+	background: url('../img/back4.jpg') 100% 100% / cover no-repeat;
 }
-#testimonials-slider1-9{
-	background: url('../img/back2.jpg') 100% 100% / cover no-repeat;
+.no-webp #testimonials-slider1-9{
+	/*background: url('../img/back2.jpg') 100% 100% / cover no-repeat;*/
+	background: url('../img/back3.jpg') 100% 100% / cover no-repeat;
 }
-#team2-p{
-	background: url('../img/back2.jpg') 100% 100% / cover no-repeat;
+.no-webp #team2-p{
+	/*background: url('../img/back2.jpg') 100% 100% / cover no-repeat;*/
+	background: url('../img/back4.jpg') 100% 100% / cover no-repeat;
 }
-#form1-11{
-	background: url('../img/back2.jpg') 100% 100% / cover no-repeat;
+.no-webp #form1-11{
+	/*background: url('../img/back2.jpg') 100% 100% / cover no-repeat;*/
+	background: url('../img/back3.jpg') 100% 100% / cover no-repeat;
+}
+
+.webp #features3-d{
+	background: url('../img/webp/back3.webp') 100% 100% / cover no-repeat;
+}
+.webp #features3-e{
+	background: url('../img/webp/back4.webp') 100% 100% / cover no-repeat;
+}
+.webp #testimonials-slider1-9{
+	background: url('../img/webp/back3.webp') 100% 100% / cover no-repeat;
+}
+.webp #team2-p{
+	background: url('../img/webp/back4.webp') 100% 100% / cover no-repeat;
+}
+.webp #form1-11{
+	background: url('../img/webp/back3.webp') 100% 100% / cover no-repeat;
 }
 
 @media (max-width: 525px){
