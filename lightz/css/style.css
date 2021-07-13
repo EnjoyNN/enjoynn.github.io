@@ -1588,7 +1588,7 @@ textarea.is-invalid {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-top: 65px;
+    padding-top: 10px;
     padding-bottom: 85px;
   }
 
@@ -1873,7 +1873,7 @@ textarea.is-invalid {
   }
 
   .home__body {
-    padding-top: 65px;
+    padding-top: 0px;
     padding-bottom: 60px;
   }
 
@@ -1941,8 +1941,43 @@ textarea.is-invalid {
     font-size: 30px;
   }
 
+  .home__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
   .playmarket {
-    margin-right: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .appstore {
+    margin-bottom: 10px;
+  }
+
+  .download__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .download__playmarket {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .download__appstore {
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
 
   .contact__contact-form {
@@ -1991,46 +2026,7 @@ textarea.is-invalid {
         align-self: center;
   }
 
-  .home__socials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
   .home__image {
     height: 555px;
-  }
-
-  .playmarket {
-    margin-right: 0px;
-    margin-bottom: 10px;
-  }
-
-  .appstore {
-    margin-bottom: 10px;
-  }
-
-  .download__socials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  .download__playmarket {
-    margin-right: 0px;
-    margin-bottom: 10px;
-  }
-
-  .download__appstore {
-    margin-right: 0px;
-    margin-bottom: 10px;
   }
 }
